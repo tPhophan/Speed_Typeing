@@ -55,6 +55,7 @@ textEl.addEventListener('input', (e) => {
             e.target.value = "";
         }
         else{
+            clearInterval(timeInterval);
             ft_gameClear();
         }
     }
